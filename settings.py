@@ -12,6 +12,8 @@ class Settings():
     QR_TEXT_LENGTH: int = int(os.environ.get("QR_TEXT_LENGTH")) if os.environ.get("QR_TEXT_LENGTH") else 256
     QR_IMAGE_BOX_SIZE: int = int(os.environ.get("QR_IMAGE_BOX_SIZE")) if os.environ.get("QR_IMAGE_BOX_SIZE") else 512
     TELEGRAM_BOT_URL: str = os.environ.get("TELEGRAM_BOT_NAME") if os.environ.get("TELEGRAM_BOT_NAME") else "https://t.me/responseWithQrBot"
+    APP_PORT: int = int(os.environ.get("APP_PORT")) if os.environ.get("APP_PORT") else 8000
+
 settings = Settings()
 
 
