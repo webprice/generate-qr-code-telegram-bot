@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "generate-qr-code-telegram-bot"
+version = "0.1.0"
+description = "Generate QR code within telegram bot ( python language, server side)"
+authors = ["Serhii Hrekov <themebeat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
