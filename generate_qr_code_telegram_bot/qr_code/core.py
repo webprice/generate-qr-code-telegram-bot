@@ -19,7 +19,7 @@ async def generate_qr_code(message:str) -> Optional[io.BytesIO]:
         img = img.resize((settings.QR_IMAGE_BOX_SIZE, settings.QR_IMAGE_BOX_SIZE), Image.Resampling.BOX)
 
         #save the physical image:
-        img.save("qr.png")
+        #img.save("qr.png")
         buffer = io.BytesIO()
         img.save(buffer, format="PNG")
         buffer.seek(0)  # Reset buffer position to the beginning
