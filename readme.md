@@ -10,7 +10,7 @@ _I'm alive_ @ https://t.me/responseWithQrBot
 
 ⚫️For any issues, feature requests, support and feedback visit my website:
 
- 👉https://hrekov.com`
+ 👉https://hrekov.com
  
 If you want to deploy your own bot, you can use the following steps:
 
